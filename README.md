@@ -1,6 +1,6 @@
 ﻿<h1># peritable</h1>
 Author: Peri Purnama
-
+contact: cisvapery@gmail.com
 library peritable dynamic table Responsive, Pagination, search, sorting
 
 Documentation
