@@ -1,0 +1,80 @@
+.containerpagination div #messagetable {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  /* border: 1px solid black; */
+}
+
+.containerpagination div ul.peritable {
+  margin: 0;
+  float: right;
+  /* border: 1px solid black; */
+}
+
+.containerpagination {
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  /* border: 1px solid rgb(247, 247, 247); */
+  overflow: hidden;
+}
+
+.peritable-row-top {
+  /* border: 1px solid rgb(247, 247, 247); */
+  overflow: hidden;
+}
+
+.peritable-row-top>div>.peritable-search {
+  float: right;
+}
+
+.peritable-responsive {
+  width: 100%;
+  /* overflow-x: auto;
+  overflow-y: auto;
+  height: 400px; */
+  margin-top: 5px;
+  margin-bottom: 10px;
+
+}
+
+.peritable-sort {
+  float: right;
+  padding: 3px 0;
+}
+.peritable-sort:hover {
+  color: blue;
+}
+
+@media screen and (max-width: 768px) {
+  * {
+    font-size: 12px;
+  }
+  .containerpagination div ul.peritable {
+    float: none;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .containerpagination div #messagetable {
+    text-align: center;
+  }
+
+  .peritable-row-top>div {
+    padding: 10px 10px 0;
+    /* border: 1px solid rgb(247, 247, 247); */
+  }
+
+  .peritable-row-top>div>.peritable-search {
+    float: none;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  th {
+    min-width: 80px;
+  }
+
+  .peritable-sort {
+    float: none;
+  }
+}
