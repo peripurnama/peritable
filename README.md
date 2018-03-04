@@ -1,4 +1,4 @@
-# peritable
+﻿<h1># peritable</h1>
 Author: Peri Purnama
 
 library peritable dynamic table Responsive, Pagination, search, sorting
