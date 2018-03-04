@@ -6,7 +6,7 @@ library peritable dynamic table Responsive, Pagination, search, sorting
 Documentation
 Parameters $(element).peripag({...})
 
-total number of pages
+<pre><code>total number of pages
 maxVisible maximum number of visible pages
 page page to show on start
 leaps next/prev buttons move over one page or maximum visible pages
@@ -31,3 +31,4 @@ event object
 num page number clicked
 peritableDataAll All Data Table
 peritableDataShow Show Data Table.
+</code></pre>
